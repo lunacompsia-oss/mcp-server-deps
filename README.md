@@ -1,5 +1,9 @@
 # mcp-server-deps
 
+> Part of the [Dependency Intelligence Suite](https://lunacompsia-landing.pages.dev/) by Lunacompsia
+>
+> [mcp-server-changelog](https://github.com/lunacompsia-oss/mcp-server-changelog) — What changed? | **mcp-server-deps** — What's broken? | [mcp-server-license](https://github.com/lunacompsia-oss/mcp-server-license) — What's allowed?
+
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Dependency intelligence for AI assistants.
