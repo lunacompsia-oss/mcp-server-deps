@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/registry/main/schema/server.json",
+  "name": "io.github.lunacompsia-oss/mcp-server-deps",
+  "display_name": "Dependency Intelligence",
+  "description": "Give AI assistants real-time dependency intelligence: outdated packages, vulnerabilities, dependency trees, and package health metrics",
+  "repository": {
+    "url": "https://github.com/lunacompsia-oss/mcp-server-deps",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "0.1.0",
+    "release_date": "2026-03-27"
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "@lunacompsia-oss/mcp-server-deps",
+      "version": "0.1.0"
+    }
+  ],
+  "remotes": [],
+  "tools": [
+    {
+      "name": "check_outdated",
+      "description": "Find outdated dependencies in your package.json — shows current vs latest versions with update type classification"
+    },
+    {
+      "name": "check_vulnerabilities",
+      "description": "Check a package for known security vulnerabilities via OSV.dev"
+    },
+    {
+      "name": "get_dependency_tree",
+      "description": "Visualize recursive dependency trees with circular dependency detection"
+    },
+    {
+      "name": "get_package_health",
+      "description": "Package health metrics: downloads, maintainers, freshness, GitHub stars, actionable warnings"
+    }
+  ],
+  "installations": {
+    "claude": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "github:lunacompsia-oss/mcp-server-deps"]
+    }
+  },
+  "environment_variables": [
+    {
+      "name": "GITHUB_TOKEN",
+      "description": "GitHub personal access token for higher API rate limits (optional)",
+      "required": false
+    }
+  ]
+}
