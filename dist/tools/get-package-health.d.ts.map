@@ -1,0 +1,1 @@
+{"version":3,"file":"get-package-health.d.ts","sourceRoot":"","sources":["../../src/tools/get-package-health.ts"],"names":[],"mappings":"AAAA;;;GAGG;AA4CH,wBAAsB,gBAAgB,CACpC,WAAW,EAAE,MAAM,GAClB,OAAO,CAAC;IAAE,OAAO,EAAE,KAAK,CAAC;QAAE,IAAI,EAAE,MAAM,CAAC;QAAC,IAAI,EAAE,MAAM,CAAA;KAAE,CAAC,CAAA;CAAE,CAAC,CAkH7D"}

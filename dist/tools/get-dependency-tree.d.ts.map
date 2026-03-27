@@ -1,0 +1,1 @@
+{"version":3,"file":"get-dependency-tree.d.ts","sourceRoot":"","sources":["../../src/tools/get-dependency-tree.ts"],"names":[],"mappings":"AAAA;;;GAGG;AAgFH,wBAAsB,iBAAiB,CACrC,WAAW,EAAE,MAAM,EACnB,OAAO,CAAC,EAAE,MAAM,EAChB,KAAK,GAAE,MAAU,GAChB,OAAO,CAAC;IAAE,OAAO,EAAE,KAAK,CAAC;QAAE,IAAI,EAAE,MAAM,CAAC;QAAC,IAAI,EAAE,MAAM,CAAA;KAAE,CAAC,CAAA;CAAE,CAAC,CA4B7D"}

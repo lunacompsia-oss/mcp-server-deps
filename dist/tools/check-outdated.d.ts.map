@@ -1,0 +1,1 @@
+{"version":3,"file":"check-outdated.d.ts","sourceRoot":"","sources":["../../src/tools/check-outdated.ts"],"names":[],"mappings":"AAAA;;;GAGG;AA2BH,wBAAsB,aAAa,CAAC,kBAAkB,EAAE,MAAM,GAAG,OAAO,CAAC;IACvE,OAAO,EAAE,KAAK,CAAC;QAAE,IAAI,EAAE,MAAM,CAAC;QAAC,IAAI,EAAE,MAAM,CAAA;KAAE,CAAC,CAAC;CAChD,CAAC,CAmHD"}
