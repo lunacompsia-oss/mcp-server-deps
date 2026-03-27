@@ -1,0 +1,53 @@
+{
+  "name": "@lunacompsia-oss/mcp-server-deps",
+  "version": "0.1.0",
+  "description": "MCP server that gives AI assistants real-time dependency intelligence: outdated packages, vulnerabilities, dependency trees, and package health metrics",
+  "type": "module",
+  "bin": {
+    "mcp-server-deps": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "dependencies",
+    "outdated",
+    "vulnerabilities",
+    "security",
+    "npm",
+    "ai",
+    "claude",
+    "model-context-protocol"
+  ],
+  "author": "Auto Company <autocompany@lunacompsia.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lunacompsia-oss/mcp-server-deps"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
